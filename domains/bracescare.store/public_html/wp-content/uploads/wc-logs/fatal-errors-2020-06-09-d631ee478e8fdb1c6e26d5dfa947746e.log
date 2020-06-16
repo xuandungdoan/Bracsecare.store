@@ -1,0 +1,20 @@
+2020-06-09T00:55:55+00:00 CRITICAL Out of memory (allocated 73662464) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/functions.php on line 4306
+
+2020-06-09T00:55:55+00:00 CRITICAL Out of memory (allocated 73662464) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/rest-api/class-wp-rest-server.php on line 759
+
+2020-06-09T01:06:09+00:00 CRITICAL Out of memory (allocated 56885248) (tried to allocate 299008 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/pomo/streams.php on line 205
+
+2020-06-09T03:32:16+00:00 CRITICAL Out of memory (allocated 61079552) (tried to allocate 65536 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-content/plugins/wpforms-lite/includes/fields/class-email.php on line 384
+
+2020-06-09T04:05:21+00:00 CRITICAL Out of memory (allocated 71565312) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 615
+
+2020-06-09T04:05:21+00:00 CRITICAL Out of memory (allocated 71565312) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/pomo/translations.php on line 100
+
+2020-06-09T04:05:22+00:00 CRITICAL Out of memory (allocated 71565312) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 615
+
+2020-06-09T04:05:23+00:00 CRITICAL Out of memory (allocated 71565312) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 615
+
+2020-06-09T04:21:07+00:00 CRITICAL Out of memory (allocated 69468160) (tried to allocate 20480 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-includes/pomo/translations.php on line 100
+
+2020-06-09T04:41:23+00:00 CRITICAL Out of memory (allocated 56885248) (tried to allocate 32768 bytes) in /home/xuanhai/domains/bracescare.store/public_html/wp-content/plugins/elementor/modules/history/revisions-manager.php on line 403
+

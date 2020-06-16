@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:	1200px) and (max-width:	1300px){
+	table#tbl-product-fee tr td input#product_fees_conditions_values {width: 20em;}
+}
+
+@media screen and (max-width: 1700px) {
+	.fees-pricing-rules .fees_pricing_rules .tabs {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.fees-pricing-rules .fees_pricing_rules .tabs .tab-link {
+		width: 15%;
+		line-height: normal;
+		display: flex;
+		align-items: center;
+	}
+
+	.fees_pricing_rules_tab_content {
+		width: 100%;
+		overflow-x: scroll;
+	}
+
+	header.dots-header .dots-header-right {
+		width: calc(100% - 105px) !important;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	header.dots-header .dots-header-right .button-group img {
+		max-height: 48px;
+	}
+}
+
+@media screen and (max-width: 1450px) {
+	table.advance-shipping-method-table td input[type=number],table.advance-shipping-method-table td input[type=text]{
+    	width: 100px;
+	}
+	table#tbl_ap_product_method td select[multiple] {
+		width: 150px !important;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.form-table td select,table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:first-child select,table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr .chosen-container.chosen-container-multi{width: 250px !important; }
+	table#tbl-shipping-method tbody tr td select{width: 250px !important;}
+	table#tbl-shipping-method th{width: 33%;}
+}
+@media screen and (max-width: 1300px) {
+	.dotstore_plugin_sidebar {width: 430px; margin-top: 30px; max-width: 100%; margin: 0 auto; display: table; text-align: center; padding-top: 30px; }
+	.wcpfc-section-left {width: 100%; max-width: 100%; }
+	.wcpfc-main-table.res-cl table.table-outer tr td, .wcpfc-main-table.res-cl table.table-outer tr th {display: table-cell; }
+ 	header.dots-header .dots-header-right {flex-wrap: wrap; }
+	header.dots-header .dots-header-right .button-group img {max-height: 40px; }
+	header.dots-header .dots-header-right .button-group .button-dots-left {margin-right: 10px; }
+	header.dots-header .dots-header-right .logo-detail, header.dots-header .dots-header-right .logo-detail .button-group {width: 100%; }
+	header.dots-header .dots-header-right .logo-detail {margin-bottom: 15px; padding-left: 0; text-align: center; }
+	header.dots-header .dots-header-right {padding: 30px; box-sizing: border-box; padding-top: 0; justify-content: center; width: 100% !important; }
+	header.dots-header .dots-logo-main {float: none; width: 100%; box-sizing: border-box; text-align: center; }
+	.adv-pricing-rules .pricing_rules .tabs .tab-link{padding:10px;}
+	#apm_wrap .heading th{width: 180px;}
+	table#tbl_ap_product_method .woo_hide_shipping_methods_tab_description {
+    margin-left: 3px;
+	}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td select[multiple]{width: 200px !important;}
+	.form-table td select,table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:first-child select {width: 200px !important; }
+	table#tbl-shipping-method tbody tr td select,table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr .chosen-container.chosen-container-multi{width: 200px !important;}
+}
+@media screen and (max-width:	1150px){
+	.pricing_rules_tab_content .sub-title .advance_rule_condition_match_type {
+    	width: 100%;
+    	margin-top: 10px;
+    	padding-left: 20px;
+	}
+	.pricing_rules_tab_content .sub-title .advance_rule_condition_match_type .switch_in_pricing_rules_description{
+		display: inline-block;
+    	float: none;
+	}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td textarea{
+    	width: 80% !important;
+	}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td .whsm_select + span{
+    	width: 80% !important;
+	}
+	.woocommerce_page_whsm-start-page .whsm_select + span{
+		width: 80% !important;
+	}
+}
+
+@media screen and (max-width:	980px){
+	.dots-header-right .logo-detail strong{font-size: 28PX;}
+	.under-table table.table-outer tr td.ur-2 a{margin-bottom: 20px;}
+	.under-table table.table-outer tr td.ur-2 a{margin-bottom: 20px;}
+	.set h2{margin-top: 0;}
+	.set-right {width: 100%;float: left;text-align: left;margin-top: 20px;}
+	.search {float: none;}
+
+	.form-table td select, table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:first-child select {width: 200px !important; }
+	.woocommerce_page_whsm-start-page .adv-pricing-rules .pricing_rules .tabs {display: none; }
+	.pricing_rules_tab_content .tab-content:before {background-color: #ccc; color: #fff; border-top: 1px solid rgba(40,44,42,0.1); margin: 0; padding: 10px 20px; display: block; cursor: pointer; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; content: attr(data-title); font-weight: 500; }
+	.pricing_rules_tab_content .tap-class {display: none; }
+	.adv-pricing-rules .pricing_rules .tab-content{display:block;}
+	.pricing_rules_tab_content .tab-content.current .tap-class {display: block ; }
+	.pricing_rules_tab_content .tab-content.current:before {color: #0085ba; }
+
+	table.advance-shipping-method-table tr.heading{display: none;}
+	table.advance-shipping-method-table td {display: block; width: 100% !important; margin: 0 auto; padding: 6px 0; text-align: center;}
+	table#tbl_ap_product_method td select[multiple]{width: 95% !important; padding: 0; margin: 0 auto; text-align: center; display: block; margin-top: 20px;}
+	table.advance-shipping-method-table tr td select[multiple] {width: 95% !important; padding: 0; margin: 0 auto; text-align: center; display: block; margin-top: 20px; }
+	table.advance-shipping-method-table td input[type=number], table.advance-shipping-method-table td input[type=text] {width: 95% !important; display: block; margin: 0 auto; }
+	table.advance-shipping-method-table tr td a.delete-row{padding: 3px 8px; border: 1px solid; display: inline-block; margin-bottom: 10px; }
+	table.advance-shipping-method-table tr td:last-child {border-bottom: 3px solid #ddd; }
+	table.advance-shipping-method-table tr:last-child td {border-bottom: 0; }
+	.advance-shipping-method-table .chosen-container {width: 95% !important; margin-top: 20px; }
+	.woocommerce_page_afrsm-start-page .widefat .check-column {width: 10% !important; }
+	.tap a#ap-product-add-field,.tap a#ap-category-add-field,.tap a#ap-total-cart-qty-add-field,.tap a#ap-product-weight-add-field,.tap a#ap-category-weight-add-field,.tap a#ap-total-cart-weight-add-field,.tap a#ap-total-cart-subtotal-add-field,.tap a#ap-product-subtotal-add-field,.tap a#ap-category-subtotal-add-field{
+    margin-left: 30px; }
+    #apm_wrap.adv-pricing-rules .pricing_rules .tab-content .sub-title .title-tip{padding-bottom: 10px;}
+}
+
+@media screen and (max-width: 782px){
+	.form-table td.forminp textarea {width: 100%;}
+	.form-table td select{width: 100% !important;}
+	span.sm_time_from, span.sm_time_to {display: inline-block; float: left; vertical-align: middle; padding: 11px 11px 11px 0; }
+	.form-table td.forminp input#sm_time_from, .form-table td.forminp input#sm_time_to {width: 100%;}
+	.form-table td select, table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:first-child select {width: 100% !important;} 
+	table#tbl-shipping-method th, table#tbl-shipping-method td{width: 90%; margin: 0 auto;border-right: 0;}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr{border-bottom: 3px solid #ddd;border-bottom: 3px solid #ddd; margin-top: 15px; display: block;}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:last-child{border-bottom: 0px;}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:first-child{    padding-bottom: 15px;}
+	.form-table td a#fee-delete-field{padding: 3px 8px; border: 1px solid;display: inline-block; margin-bottom: 10px;}
+	.shipping-method-table select#how_to_apply, .shipping-method-table select#sm_select_taxable, .shipping-method-table select#sm_select_day_of_week,.shipping-method-table .product_fees_conditions_values_country,table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td select[multiple],table.form-table.table-outer.shipping-method-table select{
+    	width: 100% !important;
+	}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td input[type=text]{width: 100% !important;}
+	.form-table td select,table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr:first-child select {width: 100% !important; }
+	table#tbl-shipping-method tbody tr td select{width: 100% !important;}
+	.form-table td.forminp .chosen-container{width: 100% !important; height: 33px !important;}
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr .chosen-container.chosen-container-multi {
+    width: 100% !important;
+	}
+	.adv-pricing-rules.apply-per-qty .apply-per-qty-table select, .adv-pricing-rules.apply-per-qty .apply-per-qty-table input{width: 100% !important;}
+	.chosen-container-multi .chosen-choices{padding: 5.5px 6px;}
+	.woocommerce_page_afrsm-start-page .widefat .check-column {width: 20% !important; }
+	.woocommerce_page_afrsm-start-page .widefat .check-column:before {
+    content: "\f333" !important;
+    font-family: Dashicons;
+    text-align: center;
+    color: #555;
+    display: inline-block;
+    width: 20px !important;
+    float: left;
+    height: 100%;
+    line-height: 20px;
+    position: relative;
+    right: -5px;
+    padding-right: 15px;
+    position: static !important;
+    left: 0 !important;
+}
+.woocommerce_page_afrsm-start-page  .chosen-container .chosen-drop{max-height: 200px; overflow-y: auto;}
+table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td textarea{width: 100%;}
+
+/*26-02-2019*/
+.advance_rule_condition_match_type .switch_in_pricing_rules_description{margin-top: 8px;}
+
+	table.tbl_product_fee.table-outer.tap-cas.form-table.shipping-method-table tr td .whsm_select + span {
+    	width: 100% !important;
+	}
+	.woocommerce_page_whsm-start-page .shipping-method-table .whsm_select + span {
+    	width: 100% !important;
+	}
+	.woocommerce_page_whsm-start-page table.form-table.table-outer.shipping-method-table select.whsm_select,.woocommerce_page_whsm-start-page table.form-table.table-outer.shipping-method-table select#sm_select_day_of_week{
+    	width: 95% !important;
+	}
+	.woocommerce_page_whsm-start-page table#tbl-shipping-method tbody tr td select.whsm_select{
+		width: 85% !important;
+	}
+	.woocommerce_page_whsm-start-page .whsm_select + span {
+    	width: 95% !important;
+	}
+}
+
+
+@media screen and (max-width:	768px){
+	.logo-main {display: block;width: 100%;box-sizing: border-box;}
+	.dots-header-right .logo-detail {width: 100%;margin-bottom: 20px;}
+	.dots-header-right .update-blog {float: left;margin-left: 20px;}
+	.menu-main ul li a{padding-left: 17px;padding-right: 17px;}
+	.wcpfc-main-table table.table-outer tr td.fr-2 a.ab {margin-top: 20px;}
+	.under-table table.table-outer tr td.ur-2 p.block.bl {margin-left: 26px;}
+	.under-table table.table-outer tr td.ur-2 input#submit{width: 27% !important;}
+	.foot-rihgt {float: left;margin-top: 20px;width: 100%;}
+	.under-table table.table-outer tr td.ur-2 select { width: 100%;	}
+	.set input#submit {width: 24% !important;}
+}
+
+
+
+@media screen and (max-width: 650px) {
+	.fees_pricing_rules_tab {
+		display: inline-block;
+	}
+
+	.fees-pricing-rules .fees_pricing_rules {
+		overflow-x: scroll;
+	}
+
+	.fees-pricing-rules .fees_pricing_rules .tabs {
+		flex-wrap: wrap;
+	}
+
+	.fees-pricing-rules .fees_pricing_rules .tabs .tab-link {
+		width: auto;
+		padding: 14px;
+		font-size: 12px;
+	}
+
+	.dotstore_plugin_sidebar, header.dots-header .dots-header-right {
+		width: 100% !important;
+	}
+
+	header.dots-header .dots-header-right .button-group img {
+		max-height: 27px;
+	}
+
+	#dotsstoremain .button-dots {
+		margin-right: 0;
+	}
+
+	header.dots-header .dots-header-right .button-dots span.support_dotstore_image:last-child {
+		margin: 0 !important;
+	}
+	#apm_wrap.adv-pricing-rules .pricing_rules .tab-content .sub-title .tap{display: block;}
+	.tab-content .sub-title .tap .switch_in_pricing_rules_description{float: none;    padding-left: 30px;    margin-bottom: 5px;}
+	.tap a#ap-product-add-field, .tap a#ap-category-add-field, .tap a#ap-total-cart-qty-add-field, .tap a#ap-product-weight-add-field, .tap a#ap-category-weight-add-field, .tap a#ap-total-cart-weight-add-field, .tap a#ap-total-cart-subtotal-add-field,.tap a#ap-product-subtotal-add-field,.tap a#ap-category-subtotal-add-field{margin-bottom: 15px;}
+	.switch_status_div input[type=checkbox] {margin-bottom: 10px; }
+	.switch_status_div span.woo_hide_shipping_methods_tab_description {margin-top: -20px; }
+
+}
+
+@media screen and (max-width:559px){
+	.dots-header-right {width: 100%;display: block;}
+	.dots-header-right .logo-detail strong {font-size: 24PX;}
+	.menu-main ul li {width: 100% !important;margin: 0 auto;text-align: center;}
+	.tap {width: 100%;}
+	.tap table.table-outer.tap-cas {min-width: /*640px;*/100%;}
+	.wcpfc-main-table.none-blog {border-right: 1px solid #ddd;}
+	.wcpfc-main-table.res-cl table.table-outer tr td {font-size: 15px !important;padding: 20px 0px 20px 10px !important;display: block;width: 100%;box-sizing: border-box;}
+	.wcpfc-main-table.res-cl table.table-outer tr td.fr-1 {width: 100%;border-bottom: none;}
+	.wcpfc-main-table.res-cl td.fr-2 {border-top: none !important;}
+	.wcpfc-main-table table.table-outer tr td.fr-2 a.gb{margin-right: 0;}
+	.wcpfc-main-table.res-cl table.table-outer tr td.fr-2 a.cb{margin-top: 20px;}
+	.search {margin-top: 20px;}
+	.under-table table.table-outer tr td.ur-1 {width: 85%;border-bottom: none;}
+	.under-table table.table-outer tr td {width: 85%;display: block;}
+	.wcpfc-main-table table.table-outer tr td.fr-2 a{padding-right: 10px;padding-left: 0;}
+	.under-table table.table-outer tr td.ur-2 {    border-top: none;}
+
+	/*13-08-2019*/
+	.form-table td select{width: 300px !important}
+	.woocommerce_page_afrsm-start-page .widefat .check-column {width: 30% !important; }
+	/*.tap a#ap-product-add-field,.tap a#ap-category-add-field,.tap a#ap-total-cart-qty-add-field,.tap a#ap-product-weight-add-field,.tap a#ap-category-weight-add-field,.tap a#ap-total-cart-weight-add-field,.tap a#ap-total-cart-subtotal-add-field{
+    	margin-left: 0px;*/
+    /*26-09-2019*/
+    .shipping-method-rules .sub-title h2{
+    	width: 100%;
+    }
+    .shipping-method-rules .sub-title .tap{
+    	width: auto;
+    }
+    .pricing_rules_tab_content .sub-title .advance_rule_condition_match_type{
+    	padding-left: 20px;
+    }
+}
+/*03-05-2019*/
+@media screen and (max-width:	400px){
+	/*13-08-2019*/
+	.form-table td select{width: 100%/*210px*/ !important}
+	a.page-title-action {display: inline-block; }
+	.woocommerce_page_whsm-start-page .adv-pricing-rules .main_rule_condition{
+		width: 100%;
+    	padding: 20px 0;
+	}
+	.shipping-method-rules .sub-title .advance_rule_condition_match_type{
+		padding-left: 0;
+		margin-top: 20px;
+	}
+	.shipping-method-rules .sub-title .tap {
+    	width: 100%;
+	}
+}
